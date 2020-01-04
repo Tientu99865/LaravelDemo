@@ -10,7 +10,15 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\TheLoai;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('test',function (){
+    $TheLoai = TheLoai::find(1);
+    foreach ($TheLoai->loaitin as $LoaiTin){
+        echo $LoaiTin->Ten."<br>";
+    }
 });
