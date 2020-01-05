@@ -8,6 +8,8 @@
     <meta name="author" content="">
     <title>Admin - Khoa Phạm</title>
 
+    <base href="{{asset('')}}">
+
     <!-- Bootstrap Core CSS -->
     <link href="admin_asset/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
