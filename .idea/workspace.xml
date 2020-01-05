@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3a9fc3-345e-4a67-a018-4f11af284dab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/function/function.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TheLoaiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TheLoaiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/theloai/danhsach.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/theloai/danhsach.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/theloai/sua.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/theloai/sua.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/theloai/them.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/theloai/them.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,15 +122,16 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admin_asset" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\LaravelDemo\app" />
       <recent name="C:\xampp\htdocs\LaravelDemo\public\admin_asset" />
       <recent name="C:\xampp\htdocs\LaravelDemo\resources\views\admin\user" />
       <recent name="C:\xampp\htdocs\LaravelDemo\resources\views\admin\tintuc" />
       <recent name="C:\xampp\htdocs\LaravelDemo\resources\views\admin\slide" />
-      <recent name="C:\xampp\htdocs\LaravelDemo\resources\views\admin\loaitin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,7 +164,7 @@
       <updated>1577957127868</updated>
       <workItem from="1577957129262" duration="7407000" />
       <workItem from="1578151848612" duration="3091000" />
-      <workItem from="1578204255694" duration="4293000" />
+      <workItem from="1578204255694" duration="10887000" />
     </task>
     <servers />
   </component>
@@ -167,6 +174,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/xampp/htdocs/LaravelDemo/app/Http/Controllers/Auth" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -175,6 +207,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
 </project>
