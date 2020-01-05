@@ -15,10 +15,15 @@ use App\TheLoai;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('test',function (){
+//test lien ket
+Route::get('test_lienket',function (){
     $TheLoai = TheLoai::find(1);
     foreach ($TheLoai->loaitin as $LoaiTin){
         echo $LoaiTin->Ten."<br>";
     }
 });
+//test giao dien
+Route::get('test_giaodien',function (){
+    return view('admin.theloai.danhsach');
+});
+
