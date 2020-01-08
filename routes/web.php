@@ -72,6 +72,7 @@ Route::group(['prefix'=>'admin'],function (){
         Route::get('sua','TinTucController@getSua');
 
         Route::get('them','TinTucController@getThem');
+        Route::post('them','TinTucController@postThem');
     });
 
     Route::group(['prefix'=>'user'],function (){
@@ -81,5 +82,9 @@ Route::group(['prefix'=>'admin'],function (){
         Route::get('sua','UserController@getSua');
 
         Route::get('them','UserController@getThem');
+    });
+
+    Route::group(['prefix'=>'ajax'],function (){
+       Route::get('loaitin/{idTheLoai}','AjaxController@getLoaiTin');
     });
 });
