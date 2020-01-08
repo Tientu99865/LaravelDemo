@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f3a9fc3-345e-4a67-a018-4f11af284dab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/tintuc/danhsach.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tintuc/danhsach.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TinTucController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TinTucController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/tintuc/them.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tintuc/them.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +161,7 @@
       <workItem from="1578151848612" duration="3091000" />
       <workItem from="1578204255694" duration="17346000" />
       <workItem from="1578411014386" duration="3902000" />
-      <workItem from="1578468378271" duration="3893000" />
+      <workItem from="1578468378271" duration="13360000" />
     </task>
     <servers />
   </component>
