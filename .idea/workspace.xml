@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f3a9fc3-345e-4a67-a018-4f11af284dab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TinTucController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TinTucController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/upload/tintuc/302932041_49778135_780786335627564_1907982059528257536_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/tintuc/danhsach.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tintuc/danhsach.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/tintuc/sua.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tintuc/sua.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -163,7 +162,11 @@
       <workItem from="1578151848612" duration="3091000" />
       <workItem from="1578204255694" duration="17346000" />
       <workItem from="1578411014386" duration="3902000" />
-      <workItem from="1578468378271" duration="16181000" />
+      <workItem from="1578468378271" duration="16937000" />
+      <workItem from="1578549340032" duration="1000" />
+      <workItem from="1578552236638" duration="612000" />
+      <workItem from="1578559788351" duration="5497000" />
+      <workItem from="1578574106598" duration="2406000" />
     </task>
     <servers />
   </component>

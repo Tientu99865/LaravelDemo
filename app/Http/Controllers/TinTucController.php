@@ -5,14 +5,16 @@ namespace App\Http\Controllers;
 use App\TheLoai;
 use App\TinTuc;
 use App\LoaiTin;
+use App\Comment;
 use Illuminate\Http\Request;
 use Psy\Util\Str;
+
 
 class TinTucController extends Controller
 {
     //
     public function getDanhsach(){
-        $tintuc = TinTuc::orderBy('id','DESC')->get();
+        $tintuc = TinTuc::all();
         return view('admin/tintuc/danhsach',['tintuc'=>$tintuc]);
     }
     public function getThem(){
@@ -131,6 +133,6 @@ class TinTucController extends Controller
         $tintuc = TinTuc::find($id);
         $tintuc->delete();
 
-        return redirect('admin/tintuc/danhsach')->with('ThongBao','Bạn đã xóa thành công');
+        return redirect('admin/tintuc/sua/'.$id)->with('ThongBao','Bạn đã xóa thành công');
     }
 }

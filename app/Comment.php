@@ -14,6 +14,6 @@ class Comment extends Model
     }
 
     public function user(){
-        return $this->hasMany('App\User','idUser','id');
+        return $this->belongsTo('App\User','idUser','id');
     }
 }
