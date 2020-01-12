@@ -6,26 +6,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Category
-                    <small>Add</small>
+                <h1 class="page-header">Quản lý người dùng
+                    <small>Thêm</small>
                 </h1>
             </div>
             <!-- /.col-lg-12 -->
             <div class="col-lg-7" style="padding-bottom:120px">
                 <form action="" method="POST">
                     <div class="form-group">
-                        <label>Category Parent</label>
-                        <select class="form-control">
-                            <option value="0">Please Choose Category</option>
-                            <option value="">Tin Tức</option>
-                        </select>
+                        <label>Họ tên</label>
+                        <input class="form-control" name="name" placeholder="Nhập họ tên người dùng" />
                     </div>
                     <div class="form-group">
-                        <label>Category Name</label>
-                        <input class="form-control" name="txtCateName" placeholder="Please Enter Category Name" />
-                    </div>
-                    <div class="form-group">
-                        <label>Category Order</label>
+                        <label>email</label>
                         <input class="form-control" name="txtOrder" placeholder="Please Enter Category Order" />
                     </div>
                     <div class="form-group">

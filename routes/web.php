@@ -27,9 +27,16 @@ Route::get('test_giaodien',function (){
     return view('admin.theloai.danhsach');
 });
 
+//Login
+
+Route::get('admin/dangnhap','UserController@getdangnhapAdmin');
+Route::post('admin/dangnhap','UserController@postdangnhapAdmin');
+Route::get('admin/logout','UserController@getdangxuatAdmin');
+
 //Route group admin
 
 Route::group(['prefix'=>'admin'],function (){
+    //The Loai
    Route::group(['prefix'=>'theloai'],function (){
 
        Route::get('danhsach','TheLoaiController@getDanhsach');
@@ -42,7 +49,7 @@ Route::group(['prefix'=>'admin'],function (){
 
        Route::get('xoa/{id}','TheLoaiController@getXoa');
    });
-
+    //loai tin
     Route::group(['prefix'=>'loaitin'],function (){
 
         Route::get('danhsach','LoaiTinController@getDanhsach');
@@ -55,16 +62,21 @@ Route::group(['prefix'=>'admin'],function (){
 
         Route::get('xoa/{id}','LoaiTinController@getXoa');
     });
-
+    //Slide
     Route::group(['prefix'=>'slide'],function (){
 
         Route::get('danhsach','SlideController@getDanhsach');
 
-        Route::get('sua','SlideController@getSua');
+        Route::get('sua/{id}','SlideController@getSua');
+        Route::post('sua/{id}','SlideController@postSua');
 
         Route::get('them','SlideController@getThem');
-    });
+        Route::post('them','SlideController@postThem');
 
+        Route::get('xoa/{id}','SlideController@getXoa');
+
+    });
+//    TinTuc
     Route::group(['prefix'=>'tintuc'],function (){
 
         Route::get('danhsach','TinTucController@getDanhsach');
@@ -77,20 +89,18 @@ Route::group(['prefix'=>'admin'],function (){
 
         Route::get('xoa/{id}','TinTucController@getXoa');
     });
-
+    //Comment
     Route::group(['prefix'=>'comment'],function (){
         Route::get('xoa/{id}/{idTinTuc}','CommentController@getXoa');
     });
-
+    //User
     Route::group(['prefix'=>'user'],function (){
 
         Route::get('danhsach','UserController@getDanhsach');
 
-        Route::get('sua','UserController@getSua');
-
-        Route::get('them','UserController@getThem');
+        Route::get('xoa/{id}','UserController@getXoa');
     });
-
+    // AJAX giua the loai va loai tin
     Route::group(['prefix'=>'ajax'],function (){
        Route::get('loaitin/{idTheLoai}','AjaxController@getLoaiTin');
     });
