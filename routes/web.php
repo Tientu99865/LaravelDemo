@@ -35,7 +35,7 @@ Route::get('admin/logout','UserController@getdangxuatAdmin');
 
 //Route group admin
 
-Route::group(['prefix'=>'admin'],function (){
+Route::group(['prefix'=>'admin','middleware'=>'adminLogin'],function (){
     //The Loai
    Route::group(['prefix'=>'theloai'],function (){
 
