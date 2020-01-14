@@ -105,3 +105,10 @@ Route::group(['prefix'=>'admin','middleware'=>'adminLogin'],function (){
        Route::get('loaitin/{idTheLoai}','AjaxController@getLoaiTin');
     });
 });
+
+
+//font end
+
+Route::get('trangchu','PageController@trangchu');
+
+Route::get('lienhe','PageController@lienhe');
